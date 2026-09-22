@@ -4,20 +4,19 @@ public class ShoppingList{
     private int amount;
     private String unit;
     private String ingredient;
-    private List available;
-    private List recipe;
+    private avalibleAtHome[] available;
+    priavte dish[] recipe;
 
+    }
 
-    public (){
-        this.amount = amount;
-        this.String = unit;
-        this.String = ingredient;
-        this.List =
+    public void avalibleAtHome();
+    this.avalibleAtHome = available;
 
-
+    public void dish(){
+        this.dish = recipe;
 
 
     }
 
+
    
-}
