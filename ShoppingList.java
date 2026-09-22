@@ -5,18 +5,18 @@ public class ShoppingList{
     private String unit;
     private String ingredient;
     private avalibleAtHome[] available;
-    priavte dish[] recipe;
+    private dish[] recipe;
 
-    }
-
-    public void avalibleAtHome();
+    public void avalibleAtHome(){
     this.avalibleAtHome = available;
+    system.out.println("AVAILABLE");
+    }
 
     public void dish(){
         this.dish = recipe;
-
+        system.out.println("RECIPE");
 
     }
-
+}
 
    
