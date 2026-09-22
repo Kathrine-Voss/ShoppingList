@@ -1,22 +1,10 @@
-import java.util.List;
+import java.util.*;
 
-public class ShoppingList{
-    private int amount;
-    private String unit;
-    private String ingredient;
-    private avalibleAtHome[] available;
-    private dish[] recipe;
+public class ShoppingList {
 
-    public void avalibleAtHome(){
-    this.avalibleAtHome = available;
-    system.out.println("AVAILABLE");
-    }
+    private Map<String, Integer> available;
+    private Map<String, Integer> required;
 
-    public void dish(){
-        this.dish = recipe;
-        system.out.println("RECIPE");
-
-    }
-}
-
-   
+    public ShoppingList() {
+        available = new HashMap<>();
+        required = new HashMap<>();
